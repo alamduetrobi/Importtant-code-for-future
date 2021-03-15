@@ -1,0 +1,924 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+@import url('https://fonts.maateen.me/siyam-rupali/font.css');
+
+
+@font-face {
+
+    font-family: myFirstFont;
+    src: url(fonts/Noto_Sans_Bengali-Black.ttf);
+    src: url(Noto_Sans_Bengali-Bold.ttf);
+    src: url(Noto_Sans_Bengali-Bold_7FIxbBh.ttf);
+    src: url(Noto_Sans_Bengali-Bold_fEdovtS.ttf);
+    src: url(Noto_Sans_Bengali-Bold_R9HaCsS.ttf);
+
+}
+
+body {
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+}
+
+
+@media (min-width: 1537px) {
+    .container {
+      max-width:1460px !important;
+    }
+
+    .maincontent {
+        margin-top: 72px;
+        /* background-image: url(../img/bg4.jpg); */
+        /* background: url(../img/bgfinal3.png) repeat-y center !important; */
+        background: url(../img/bgfinal.png) repeat-y center !important;
+        background-position: center;
+        /*background-size: cover; */
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        opacity: 1;
+    }
+
+    
+    .headertitle {
+        display: block;
+        float: left;
+        width: 100%;
+        text-align: right;
+        margin: 0 auto;
+        padding: 16px 0px;
+        margin-left:25px;
+    }
+
+
+    .headertitle h3 strong {
+        color: #fff;
+        font-size: 30px;
+        font-family: 'SiyamRupali', Arial, sans-serif !important;
+        text-align: right;
+        margin: 0 auto;
+    }
+
+  }
+
+
+/* .container {
+    max-width: 1470px !important;
+} */
+
+/* ======================== Header Area ========================= */
+
+#header {
+    background: #9E5BBA;
+}
+
+.headertitle {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 16px 0px;
+    margin-left: 22%;
+}
+
+.mujiblogo {
+    padding: 10px 0px;
+    float: left;
+    width: 100%;
+}
+
+.mujiblogo a img {
+    min-width: 65px;
+    height: auto;
+}
+
+.toplogo {
+    background-color: #fff;
+    padding: 10px 70px;
+}
+
+
+.sliderarea {
+    background-color: #F1F1F1;
+    padding: 2px 70px 10px;
+}
+.allcontent {
+    background-color: #F1F1F1;
+    padding: 10px 70px 0px;
+}
+
+.specifickbgslider {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+.specifickbg {
+    background-color: #fff;
+    padding: 0px 20px;
+}
+
+object.float-left {
+    width: 240px;
+    height: 77px;
+}
+
+object.bdmap {
+    width: 280px;
+    height: 60px;
+}
+.customlogin2 {
+    font-size: 13px !important;
+    background-color: #FFFFFF;
+    color: #9D56A2 !important;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    font-weight: normal !important;
+    line-height: 20px !important;
+    padding: 5px 15px !important;
+    border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -ms-border-radius: 4px !important;
+    -o-border-radius: 4px !important;
+}
+.customlogin3 {
+    font-size: 13px !important;
+    background-color: #FFFFFF;
+    color: #3A75DC !important;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    font-weight: normal !important;
+    line-height: 20px !important;
+    padding: 5px 15px !important;
+    border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -ms-border-radius: 4px !important;
+    -o-border-radius: 4px !important;
+}
+
+.customlogin4 {
+    font-size: 13px !important;
+    background-color:none !important;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    font-weight: normal !important;
+    line-height: 20px !important;
+    padding: 5px 15px !important;
+    border-radius: 4px!important;
+    -webkit-border-radius: 4px!important;
+    -moz-border-radius: 4px!important;
+    -ms-border-radius: 4px!important;
+    -o-border-radius: 4px!important;
+}
+
+
+.headertitle h3 strong {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'SiyamRupali', Arial, sans-serif !important;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.navbarheader {
+    padding: 0.5rem 0.1rem !important;
+    float: right !important;
+}
+
+
+
+li a.customlogin4 {
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+}
+
+
+/* ======================== Header Area ========================= */
+
+
+.leftsidebar{
+    background-color:#E1F3E0 ;
+}
+
+/* ======================== Content  Area ========================= */
+
+.toptitle {
+    font-size: 20px;
+    color: #9F3CA7;
+    border: 1px solid #9F3CA7;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 3px 10px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.videotitle{
+    margin-top: 35px;
+}
+h3#service_promise_id {
+    font-size: 20px;
+    color: #9F3CA7;
+    border: 1px solid #9F3CA7;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 3px 10px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+}
+
+.homesingle {
+    border-radius: 10px;
+    min-height: 480px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    max-width: 380px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 10%);
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 10%);
+    background-color: #F8F8F9;
+
+}
+
+.mt-widget-lichance{
+    border: none;
+    text-align: center;
+    position: relative;
+    border-color: none;
+    background-color: #EBF3FF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.mt-widget-lichance2{
+    border: none;
+    text-align: center;
+    position: relative;
+    border-color: none;
+    background-color: #F6F4E1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.mt-widget-lichance11{
+    border: none;
+    text-align: center;
+    position: relative;
+    border-color: none;
+    background-color: #D5F5FF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.licancheone {
+    background-color: #4F91E8!important;
+    color: #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    font-weight: normal;
+    padding: 17px 0px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.licancheone1 {
+    background-color: #DBCF68!important;
+    color: #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    font-weight: normal;
+    padding: 17px 0px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.licancheone2{
+background-color: #FE8158 !important;
+    color: #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    font-weight: normal;
+    padding: 17px 0px;
+    font-weight: normal;
+
+}
+.licancheone9{
+    background-color: #6EB4CB !important;
+    color: #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    font-weight: normal;
+    padding: 17px 0px;
+    font-weight: normal;
+
+}
+.licancheone22{
+    background-color: #50C2C8 !important;
+    color: #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    font-weight: normal;
+    padding: 17px 0px;
+    font-weight: normal;
+
+}
+
+.licancheone3{
+background-color: #66CE5F !important;
+    color: #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    padding: 6px 0px;
+    font-weight: normal;
+
+}
+.licancheone33{
+background-color: #6177BF !important;
+    color: #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    padding: 17px 0px;
+    font-weight: normal;
+
+}
+.licancheone4{
+background-color: #B49DE1 !important;
+    color: #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    padding: 6px 0px;
+    font-weight: normal;
+
+}
+
+.licancheone44{
+background-color: #86C7A2 !important;
+    color: #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    padding: 17px 0px;
+    font-weight: normal;
+
+}
+
+.mt-user-title{
+    font-size: 14px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    color: #000;
+}
+
+.login6 {
+    font-size: 15px !important;
+    background-color: #099F19;
+    padding: 7px 20px !important;
+    color: #fff !important;
+    position: absolute;
+    top: 230px;
+    right: 10px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+
+}
+
+.details{
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    background-color:#4F91E8 ;
+}
+.detailsdimond{
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    background-color:#DBCF68 ;
+}
+
+
+.details1{
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    background-color:#FE8158 ;
+}
+.details12{
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    background-color:#50C2C8 ;
+}
+
+.details2{
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    background-color:#66CE5F ;
+}
+.details33{
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    background-color:#6177BF ;
+}
+.details4{
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    background-color:#B49DE1 ;
+}
+.details44{
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    background-color:#86C7A2 ;
+}
+
+.details9{
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    background-color:#6EB4CB ;
+}
+
+.mt-body{
+    position: relative;
+}
+
+ol.mt-user-title li {
+    margin-left: 70px;
+}
+
+ol.mt-user-title li a {
+    color: #4E4E4E !important;
+    font-size: 14px;
+}
+
+ol.mt-user-title li:before {
+    content: "";
+    height: 12px;
+    width: 12px;
+    background-color: #DBCF68;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 11px;
+    margin-left: -30px;
+}
+
+
+/* ===================== Content 2=========================== */
+
+.khaniijara{
+    border: none;
+    text-align: center;
+    position: relative;
+    border-color: #d7dce1;
+    background-color: #FFF0EB;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.khaniijara1{
+    border: none;
+    text-align: center;
+    position: relative;
+    border-color: #d7dce1;
+    background-color: #E0F2F3;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* ===================== Content 2=========================== */
+/* ===================== Content 3=========================== */
+
+.koyariijara{
+    border: none;
+    text-align: center;
+    position: relative;
+    border-color: #d7dce1;
+    background-color: #E1F3E0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.koyariijara1{
+    border: none;
+    text-align: center;
+    position: relative;
+    border-color: #E7EBFB;
+    background-color: #E7EBFB;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* ===================== Content 3=========================== */
+
+/* ===================== Content 4=========================== */
+
+.quearymalikana{
+    border: none;
+    text-align: center;
+    position: relative;
+    background-color: #FEEEFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+.quearymalikana1{
+    border: none;
+    text-align: center;
+    position: relative;
+    background-color: #F1E9FF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.quearymalikana12{
+    border: none;
+    text-align: center;
+    position: relative;
+    background-color: #E8F6EE;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* ===================== Content 4=========================== */
+
+/* ===================== Content 4=========================== */
+
+.gagetvuktoitem{
+    border: none;
+    text-align: center;
+    position: relative;
+    background-color: #FEEEFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.specificvalue {
+    padding-top: 10px;
+    width: 1320px !important;
+    /* margin-left: -20px !important; */
+    opacity: 0.2 !important;
+}
+
+.mt-widget-link object {
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    min-width: 131px;
+    min-height: 131px;
+    text-align: center;
+    margin: 25px 0px;
+}
+/* ===================== Content 4=========================== */
+
+
+footer {
+    color: #7030a0;
+    font-size: 14px;
+    background: #fff;
+    border-top: 3px solid #6177BF !important;
+    padding: 5px 0;
+    clear: both;
+}
+
+footer h4 {
+    border-bottom: none;
+}
+
+.tottobutton {
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    color: #6177BF;
+}
+
+.batayonlink a{
+    color: #707070;
+    font-size: 24px;
+}
+
+/* ======================== Content  Area ========================= */
+
+/* ========================= Video area ============================ */
+
+.videobg{
+    background-color: #E6E9EF;
+    padding: 0px 20px;
+}
+/* ========================= Video area ============================ */
+
+/*=============================== Footer content ====================== */
+
+.social{
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.social li{
+    display: inline-block;
+    list-style: none;
+
+}
+
+.social li a{
+    text-decoration: none;
+}
+.brandlogo{
+    display: block;
+    text-align: center;
+}
+
+.brandlogo li{
+    display: inline-block;
+    list-style: none;
+
+}
+
+.brandlogo li a{
+    text-decoration: none;
+}
+
+.revelogo li img {
+    width: 160px;
+    height: 20px;
+}
+
+
+.footertext {
+    margin-top: 5px;
+    position: relative;
+    color: #4E4E4E;
+    font-size: 13px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+#mobile-nav ul li {
+    margin-bottom: 10px;
+}
+
+
+/*=========================== Onu sondan liance Page ========================= */
+.allcontentlicance {
+    background-color: #F1F1F1;
+    padding: 2px 70px 0px;
+}
+
+.leftimage img {
+    width: 240px;
+    height: 77px;
+}
+.rightimage img {
+    width: 280px;
+    height: 60px;
+    float: right;
+}
+
+.toplicance{
+    padding: 30px;
+}
+
+.single-item{
+    background-color: #fff;
+}
+
+.licanceonly_backcolor2 {
+    background-color: #D0EBEE;
+    color: #00585D !important;
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 20px;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+
+}
+
+.topcontnet {
+    background-color: #E8F4F5;
+    display: block;
+    float: left;
+    /* margin-bottom: 31px; */
+}
+
+
+.contentone p {
+    font-size: 14px;
+    float: left;
+    color: #000000;
+    /* justify-content: center; */
+    margin-bottom: 30px !important;
+    text-align: justify;
+    padding: 0px 10px;
+}
+.contenttwo p {
+    font-size: 14px;
+    float: left;
+    color: #000000;
+    /* justify-content: center; */
+    margin-bottom: 0px !important;
+    text-align: justify;
+    padding: 0px 10px 5px;
+}
+
+.nextcontent {
+    background-color: #E8F4F5;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.samebuttonmain {
+    position: absolute;
+    left: 750px;
+    bottom: 15px;
+    width: 125px;
+    padding: 0px;
+}
+.login77 {
+    font-size: 15px !important;
+    background-color: #6EB4CB;
+    padding: 10px 15px !important;
+    color: #fff !important;
+    /* position: absolute; */
+    /* bottom: -143px; */
+    /* top: 500px; */
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.login777 {
+    font-size: 15px !important;
+    background-color: #6EB4CB;
+    padding: 10px 15px !important;
+    color: #fff !important;
+    /* position: absolute; */
+    /* bottom: -143px; */
+    /* top: 500px; */
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+table#fixed_table tbody tr th {
+    font-weight: normal;
+}
+
+table.table.table-bordered, th, td {
+    border: 0.5px solid #86C7A2!important;
+}
+
+table.table.table-bordered thead tr th {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+td p {
+    font-size: 14px;
+}
+
+table.table.table-bordered tbody tr td {
+    font-size: 14px;
+}
+
+.unnon p{
+    font-size: 14px;
+    color:#000000 ;
+}
+
+a.downloadfile {
+    background-color: #66CE5F;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 10px;
+    line-height: 30px;
+    border-radius: 4px;
+}
+table.table.table-bordered tbody tr th {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.single-item {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    min-height:500px;
+}
+
+
+select#district_id, select#mineral_type_id,select#paging_dropdown {
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+
+
+/*=========================== Onu sondan liance Page End ========================= */
+
+/* ============================== Responsive Code  Start ==================== */
+
+
+@media  screen and (max-width:1202px) {
+    .headertitle h3 strong {
+        font-size: 20px;
+
+    }
+    .headertitle {
+        margin-left: 16%;
+    }
+}
+@media  screen and (max-width:992px) {
+    .headertitle h3 strong {
+        font-size: 13px;
+        font-weight: bold;
+
+    }
+    .headertitle {
+        margin-left:0%;
+        padding: 5px 0px;
+        width: 80%;
+    }
+
+    .allcontent {
+        padding: 10px 0px 10px;
+    }
+
+    .sliderarea {
+        padding: 2px 0px 10px;
+    }
+}
+
+@media  screen and (max-width:768px) {
+    .headertitle h3 strong {
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+    .headertitle {
+        margin-left: 0%;
+        padding: 5px 0px;
+        width: 100%;
+        height: 45px;
+        margin-top: 0px;
+    }
+
+    #mobile-nav ul li {
+        margin-bottom: 10px;
+    }
+
+    #header {
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .leftimage {
+        margin-top: 35px;
+    }
+
+    .noticeline{
+        margin-left: -140px;
+    }
+    .batayonlink a {
+        color: #707070;
+        font-size: 13px;
+    }
+
+    .tottobutton {
+        font-size: 16px;
+    }
+}
+
+/* ============================== Responsive Code  End ==================== */
